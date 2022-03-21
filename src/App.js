@@ -12,6 +12,7 @@
 import CounterOne from "./Hooks/useCustomhook/Counter/CounterOne";
 import CounterTwo from "./Hooks/useCustomhook/Counter/CounterTwo";
 import CustomCounter from "./Hooks/useCustomhook/counterHook/CustomCounter";
+import Post from "./Hooks/useCustomhook/fetchApiHook/Post";
 import UseMemo from "./Hooks/useMemo/UseMemo";
 import UseRef from "./Hooks/useRef/UseRef";
 
@@ -38,12 +39,13 @@ function App() {
       {/*===========useMemo================== */}
       {/* <UseMemo /> */}
       {/*===========useRef================== */}
-      <UseRef />
+      {/* <UseRef /> */}
       {/*===========useCustomHook================== */}
       {/* <CustomCounter /> */}
       {/*===Two Components===*/}
       {/* <CounterOne />
       <CounterTwo /> */}
+      <Post />
     </div>
   );
 }
