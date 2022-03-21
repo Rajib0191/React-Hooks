@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  text-decoration: none;
+}
+/* ==================SimpleUseState================= */
+
+.simple_use_state,
+.use_state_with_previous_state,
+.use_state_with_obj,
+.use_state_with_array {
+  text-align: center;
+}
+.counter_button,
+.add_number_in_state {
+  margin: 10px;
+}
+.first_name_input,
+.last_name_input {
+  display: block;
+  min-width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  align-items: center;
+}
+/*=============================useEffect========================= */
+.single_data {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid red;
+  padding: 10px;
+}
+/*===========================useReducer===========================*/
+.counter_reducer_section {
+  text-align: center;
+}
+.reducer_button {
+  margin: 10px;
+}
